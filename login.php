@@ -60,7 +60,8 @@ legend {
     transition: .5s;
 }
 
-.inputUser:focus ~ .labelinput{
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
     top: -20px;
     font-size: 12px;
     color: dodgerblue;

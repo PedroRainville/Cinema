@@ -1,8 +1,8 @@
 <?php
 
-$api_key = 'sua chave';
-$base_url = 'url da api';
-$endpoint = 'end point da api';
+$api_key = 'e9199bf497fd854afbdc73771190c98b';
+$base_url = 'https://api.themoviedb.org/3';
+$endpoint = '/movie/popular';
 $url = $base_url . $endpoint . '?api_key=' . $api_key;
 
 $response = file_get_contents($url);
